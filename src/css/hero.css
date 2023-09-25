@@ -94,6 +94,7 @@
      top: 0;
      right: 50%;
      left: 40%;
+     transition: all 0.3s;
 }
 .best-design-award{
      gap: .5rem;

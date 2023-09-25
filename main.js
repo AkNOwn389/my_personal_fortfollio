@@ -5,6 +5,9 @@ import './src/css/header.css';
 import './src/css/hero.css';
 import './src/css/service.css';
 
+
+import heroProcess from './src/js/hero';
+
 const root = document.documentElement;
 let isNight = window.localStorage.getItem('isNight');
 const switchInput = document.querySelector('.toggle-switch');
@@ -48,3 +51,5 @@ if (isNight == 'true') {
      switchInput.checked = true;
      root.style.setProperty('--black', 'white');
 }
+
+heroProcess();
