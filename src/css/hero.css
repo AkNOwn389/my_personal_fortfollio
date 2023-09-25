@@ -74,6 +74,7 @@
      margin-right: 50px;
      height: 600px;
      z-index: 3;
+     border-bottom-right-radius: 200px;
 }
 
 .firstImage{
