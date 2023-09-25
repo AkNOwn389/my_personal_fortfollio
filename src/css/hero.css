@@ -1,0 +1,172 @@
+.title-container{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: space-between;
+     margin-left: 50px;
+     margin-top: 100px;
+}
+
+.title-container h1:nth-child(1){
+     color: var(--dark);
+     font-size: var(--size-6xl);
+     margin: 0;
+     font-weight: bold;
+     z-index: 5;
+}
+
+.hero-name{
+     color: var(--yellow);
+     font-size: var(--size-6xl);
+     margin: 0;
+     font-weight: bold;
+     z-index: 5;
+}
+
+.title-container p{
+     font-size: 12px;
+     font-weight: 500;
+     max-width: 50vh;
+     color: var(--dark);
+     z-index: 5;
+     word-spacing: 2px;
+     letter-spacing: .5px;
+}
+
+.link-container{
+     display: flex;
+     flex-direction: row;
+     gap: 2rem;
+     margin-left: 100px;
+     margin-top: 100px;
+}
+
+.link-container img{
+     height: 50px;
+     width: 50px;
+     transition: transform 0.3s;
+     
+}
+
+.link-container img:hover{
+     transform: translateY(-4px);
+     
+}
+
+.link-container a{
+     z-index: 6;
+}
+
+.firstImage, .secondImage{
+     position: absolute;
+     right: 50%;
+     left: 50%;
+     top: 0;
+     margin-right: 10px;
+     margin-top: 50px;
+}
+
+.thirdImage{
+     position: absolute;
+     right: 50%;
+     left: 55%;
+     top: 0;
+     margin-right: 50px;
+     height: 600px;
+     z-index: 3;
+}
+
+.firstImage{
+     height: 400px;
+     width: 550px;
+     z-index: 1;
+}
+
+.secondImage{
+     height: 500px;
+     width: 500px;
+     z-index: 2;
+}
+.fourtImage{
+     position: absolute;
+     height: 150px;
+     width: 160px;
+     top: 0;
+     right: 50%;
+     left: 40%;
+}
+.best-design-award{
+     gap: .5rem;
+     display: flex;
+     align-items: center;
+     flex-direction: row;
+     position: absolute;
+     background-color: white;
+  
+     right: 30%;
+     left: 42%;
+     bottom: -10%;
+     z-index: 6;
+     padding: 10px;
+     border-radius: 20px;
+     max-width: 200px;
+}
+
+.best-design-award img{
+     height: 60px;
+     width: 60px;
+}
+.best-design-award h1{
+     color: black;
+}
+
+.web-developer img {
+     height: 60px;
+     width: 60px;
+}
+
+.web-developer{
+     gap: .5rem;
+     display: flex;
+     align-items: center;
+     flex-direction: row;
+     position: absolute;
+     background-color: white;
+     top: 0;
+     left: 80%;
+     z-index: 6;
+     padding: 10px;
+     border-radius: 20px;
+     max-width: 200px;
+}
+
+.bg-purple{
+     position: absolute;
+     height: 300px;
+     width: 400px;
+     background: var(--blueCard);
+     right: 30%;
+     left: 30%;
+     bottom: -20%;
+     border-radius: 70%;
+     filter: blur(40px) grayscale(50%);
+     z-index: 0;
+     transition: all 0.6s;
+}
+
+.bg-blue{
+     position: absolute;
+     height: 500px;
+     width: 500px;
+     background: var(--purple);
+     top: 0;
+     left: 60%;
+     border-radius: 70%;
+     filter: blur(40px) grayscale(50%);
+     z-index: 0;
+     transition: all 0.6s;
+}
+
+main{
+     margin-bottom: 100px;
+}
