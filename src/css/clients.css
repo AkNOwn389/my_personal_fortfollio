@@ -79,6 +79,7 @@
      font-size: var(--size-sm);
      text-align: center;
      width: 100%;
+     color: var(--dark);
 }
 
 .clients-image-container{
