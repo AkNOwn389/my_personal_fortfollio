@@ -17,10 +17,11 @@ import toggle from './src/js/toggle';
 import Works from './src/js/works';
 import projects from './src/js/project';
 import clients from './src/js/clients';
-
+import lazyLoading from './src/js/lazy-loading';
 Works();
 toggle();
 heroProcess();
 ServiceFunction();
 projects();
 clients();
+lazyLoading();

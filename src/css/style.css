@@ -76,3 +76,12 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+.loading {
+  filter: blur(10px) grayscale(100%);
+}
+
+.loaded {
+  filter: blur(0) grayscale(0);
+  transition: 0.3s ease-in-out;
+}
