@@ -88,6 +88,8 @@
      border-radius: 20px;
      padding-top: 10px;
      padding-bottom: 30px;
+     padding-left: 30px;
+     padding-right: 30px;
      position: absolute;
      background-color: var(--black);
      transition: all 0.3s;
@@ -162,6 +164,28 @@
      font-size: var(--size-sm);
      border-radius: 10px;
      border: none;
+     color: rgb(255, 255, 255);
+     background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+     transition: all 0.3s;
+     font-family: 'General Sans', sans-serif;
+}
+.desigh-container button:hover,
+.ui-ux-container button:hover,
+.developer-container button:hover,
+.web-development button:hover {
+     color: rgb(14, 12, 12);
+     background: linear-gradient(180deg, #fffdf8 26.71%, #bdafa0 99.36%);
+     transform: translateY(-3px);
+}
+
+.desigh-container button:active,
+.ui-ux-container button:active,
+.developer-container button:active,
+.web-development button:active {
+     color: rgb(14, 12, 12);
+     background: linear-gradient(180deg, #fffdf8 26.71%, #bdafa0 99.36%);
+     transform: translateY(-3px);
+     
 }
 
 
@@ -200,59 +224,30 @@
 
      .desigh-container {
           border: solid var(--orangeCard) 3px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: space-around;
           border-radius: 20px;
           padding-top: 10px;
           padding-bottom: 30px;
-          position: absolute;
-          background-color: var(--black);
-          transition: all 0.3s;
      }
 
      .ui-ux-container {
           border: solid var(--orangeCard) 3px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: space-around;
           border-radius: 20px;
           padding-top: 10px;
           padding-bottom: 30px;
-          position: absolute;
-          background-color: var(--black);
-          transition: all 0.3s;
      }
 
      .developer-container {
           border: solid var(--orangeCard) 3px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: space-around;
           border-radius: 20px;
           padding-top: 10px;
           padding-bottom: 30px;
-          position: absolute;
-          background-color: var(--black);
-          transition: all 0.3s;
      }
 
      .web-development {
           border: solid var(--orangeCard) 3px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: space-around;
           border-radius: 20px;
           padding-top: 10px;
           padding-bottom: 30px;
-          position: absolute;
-          background-color: var(--black);
-          padding-left: 10px;
-          padding-right: 10px;
           z-index: 0;
      }
 
@@ -291,8 +286,9 @@
      .developer-container button,
      .web-development button {
           padding: 10px;
-          font-size: var(--size-sm);
+          font-size: 12px;
           border-radius: 10px;
+          font-weight: 600;
           border: none;
      }
 }
@@ -435,7 +431,7 @@
      }
 
      .desigh-container {
-          right: 1%;
+          right: 4%;
           top: 14%;
      }
 
@@ -445,8 +441,9 @@
      }
 
      .developer-container {
-          right: 30%;
+          right: 40%;
           top: 1%;
+          
      }
 
      .web-development {
@@ -837,6 +834,8 @@
           border-radius: 20px;
           padding-top: 10px;
           padding-bottom: 30px;
+          padding-left: 30px;
+          padding-right: 30px;
           position: absolute;
           background-color: var(--black);
           transition: all 0.3s;

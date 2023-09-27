@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Darius portfollio</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link
+    href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700&f[]=general-sans@500,600,400&f[]=satoshi@700&display=swap"
+    rel="stylesheet" />
 </head>
 
 <body>
@@ -81,10 +84,11 @@
     <div class="service-title-container">
       <h1>My Awesome</h1>
       <h1>service</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus qui cupiditate quibusdam, rerum quis dolor atque debitis ratione laborum quasi!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus qui cupiditate quibusdam, rerum quis dolor
+        atque debitis ratione laborum quasi!</p>
       <button class="button">Download CV</button>
     </div>
-    
+
     <div class="desigh-container">
       <img src="/img/heartemoji.png" alt="emoji">
       <h3>Design</h3>
@@ -106,11 +110,75 @@
     <div class="ui-ux-container">
       <img src="/img/humble.png" alt="emoji">
       <h3>UI/UX</h3>
-      <p>Lorem ispum dummy text are usually use in section where we need some random text</p>
+      <p>Protopie</p>
       <button>Learn more</button>
     </div>
+  </section>
+  <section class="data-experience-container">
+    <div class="wrapper">
+      <div class="years-container">
+        <div class="circle">
+          8+
+        </div>
+        <dic class="title">
+          <h3>years</h3>
+          <h3>Experience</h3>
+        </dic>
+      </div>
+      <div class="complete-container">
+        <div class="circle">
+          20+
+        </div>
+        <dic class="title">
+          <h3>completed</h3>
+          <h3>Projects</h3>
+        </dic>
+      </div>
+      <div class="companies-container">
+        <div class="circle">
+          5+
+        </div>
+        <dic class="title">
+          <h3>companies</h3>
+          <h3>Work</h3>
+        </dic>
+      </div>
+    </div>
+  </section>
+  <section class="works">
+    <div class="title-and-wheel">
+      <div class="title-container">
+        <h1>Works for All these</h1>
+        <h1>Brands & Clients</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, illum sint voluptatem dolor odio
+          recusandae cum hic iste possimus eligendi, voluptate ab reprehenderit nesciunt iure labore nulla dolore
+          consequatur perferendis. Perferendis consequuntur saepe pariatur odit tempora ex animi nam nobis.</p>
+        <button class="button">Hire Me</button>
+      </div>
+      <div class="wheel-container">
 
+        <div class="mainCirlcle">
+          <div className="w-secCircle">
+            <img src={Upwork} alt="" />
+          </div>
+          <div className="w-secCircle">
+            <img src={Fiverr} alt="" />
+          </div>
+          <div className="w-secCircle">
+            <img src={Amazon} alt="" />
+          </div>{" "}
+          <div className="w-secCircle">
+            <img src={Shopify} alt="" />
+          </div>
+          <div className="w-secCircle">
+            <img src={Facebook} alt="" />
+          </div>
+        </div>
+        <div className="w-backCircle blueCircle"></div>
+        <div className="w-backCircle yellowCircle"></div>
 
+      </div>
+    </div>
   </section>
   <script type="module" src="./main.js"></script>
 </body>

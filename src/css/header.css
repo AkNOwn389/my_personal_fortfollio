@@ -4,6 +4,7 @@
      align-items: center;
      justify-content: space-around;
      padding: 20px;
+     z-index: 10;
 }
 
 .navigations{
@@ -37,7 +38,7 @@
      font-size: var(--size-2xl);
      margin: 0;
      font-weight: bold;
-     color: var(--dark);
+     color: var(--blackToYellow);
      text-align: center;
 }
 

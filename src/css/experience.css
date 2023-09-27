@@ -1,0 +1,57 @@
+.data-experience-container{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     margin-top: 600px;
+}
+
+.wrapper{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     gap: 2rem;
+}
+
+.years-container, .complete-container, .companies-container{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     gap: 1rem;
+}
+
+.circle{
+     border: solid rgb(220, 176, 16) 7px;
+     border-radius: 50%;
+     width: 80px;
+     height: 80px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     color: var(--dark);
+
+}
+
+.title{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+
+}
+
+
+.title h3:nth-child(1){
+     color: var(--dark);
+     margin-top: 20px;
+     margin-bottom: 0;
+}
+.title h3:nth-child(2){
+     color: var(--yellow);
+     margin-top: 5px;
+}
