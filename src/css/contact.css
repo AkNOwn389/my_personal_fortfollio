@@ -1,0 +1,83 @@
+.contact-me{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     width: 100%;
+     position: relative;
+     margin-top: 200px;
+}
+
+.contact-title{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: space-between;
+     margin-bottom: 100px;
+     width: 100%;
+     padding-left: 20px;
+}
+
+.contact-title h1{
+     font-size: var(--size-4xl);
+     color: var(--dark);
+     font-weight: bold;
+     margin: 0;
+}
+
+.contact-me h1:nth-child(2){
+     color: var(--yellow);
+}
+
+.contact-form{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+     gap: 1rem;
+     width: 100%;
+     padding: 10px;
+     max-width: 600px;
+}
+
+.form-control:active{
+     border: solid var(--orangeCard) 4px;
+}
+
+.form-control{
+     padding: 10px;
+     border: solid var(--yellow) 4px;
+     border-radius: 10px;
+     width: 100%;
+}
+
+/* xs */
+@media (min-width: 475px) {
+     .contact-title h1{
+          font-size: var(--size-5xl);
+     }
+}
+/* sm */
+/* @media (min-width: 640px) {} */
+/* md */
+@media (min-width: 768px) {
+     .contact-title h1{
+          font-size: var(--size-6xl);
+     }
+}
+/* lg*/
+@media (min-width: 1024px) {
+     .contact-title h1{
+          font-size: var(--size-6xl);
+          text-align: center;
+          width: 100%;
+     }
+}
+/* xl */
+@media (min-width: 1280px) {
+     .contact-title h1{
+          font-size: var(--size-7xl);
+     }
+}
+/* 2xl */
+/* @media (min-width: 1536px) {} */

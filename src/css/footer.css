@@ -1,0 +1,55 @@
+.page-footer{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+     margin-top: 200px;
+     position: relative;
+     z-index: 1;
+}
+
+.page-footer p{
+     color: white;
+     z-index: 10;
+     font-size: 12px;
+     letter-spacing: .5px;
+     padding-bottom: 100px;
+}
+
+.contact-icon-container{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+     gap: 1rem;
+     z-index: 10;
+     margin-bottom: 20px;
+}
+
+.contact-icon-container div{
+     height: 30px;
+     width: 30px;
+     width: 80%;
+     z-index: 10;
+}
+
+.contact-icon-container div i{
+     width: 100%;
+     height: 100%;
+     z-index: 3;
+}
+
+.footer-bg{
+     position: absolute;
+     width: 100%;
+     bottom: 0;
+     height: 300px;
+     z-index: 0;
+}
+
+.footer-bg img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     z-index: 0;
+}

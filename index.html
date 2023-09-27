@@ -10,6 +10,7 @@
   <link
     href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700&f[]=general-sans@500,600,400&f[]=satoshi@700&display=swap"
     rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -147,7 +148,7 @@
   </section>
   <section class="works">
     <div class="title-and-wheel">
-      <div class="title-container">
+      <div class="works-title-container">
         <h1>Works for All these</h1>
         <h1>Brands & Clients</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, illum sint voluptatem dolor odio
@@ -157,29 +158,198 @@
       </div>
       <div class="wheel-container">
 
-        <div class="mainCirlcle">
-          <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+        <div class="w-mainCircle">
+          <div class="w-secCircle">
+            <img src="./img/Upwork.png" alt="" />
           </div>
-          <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+          <div class="w-secCircle">
+            <img src="./img/fiverr.png" alt="" />
           </div>
-          <div className="w-secCircle">
-            <img src={Amazon} alt="" />
-          </div>{" "}
-          <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+          <div class="w-secCircle">
+            <img src="./img/amazon.png" alt="" />
           </div>
-          <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+          <div class="w-secCircle">
+            <img src="./img/Shopify.png" alt="" />
+          </div>
+          <div class="w-secCircle">
+            <img src="./img/Facebook.png" alt="" />
           </div>
         </div>
-        <div className="w-backCircle blueCircle"></div>
-        <div className="w-backCircle yellowCircle"></div>
+      </div>
+      <div class="w-backCircle blueCircle"></div>
+      <div class="w-backCircle yellowCircle"></div>
+    </div>
+    <div class="bg-blue"></div>
+    <div class="bg-purple"></div>
+  </section>
+  <section class="recent-project">
+    <div class="bg-blue"></div>
+    <div class="bg-purple"></div>
+    <div class="recent-project-title">
+      <h1>Recent Projects</h1>
+      <h1>Portfollio</h1>
+    </div>
+    <div class="project-swiper swiper">
 
+      <div class="projects-wrapper swiper-wrapper">
+
+        <div class="project-box swiper-slide">
+
+          <div class="project-item">
+            <img src="./websites/darius-web.png" alt="">
+          </div>
+        </div>
+        <div class="project-box swiper-slide">
+          <div class="project-item">
+            <img src="./websites/wilson-web.png" alt="">
+          </div>
+
+        </div>
+        <div class="project-box swiper-slide">
+          <div class="project-item">
+            <img src="./websites/carla-web.png" alt="">
+          </div>
+
+        </div>
+        <div class="project-box swiper-slide">
+          <div class="project-item">
+            <img src="./websites/wilson-cafe.png" alt="">
+          </div>
+
+        </div>
+        <div class="project-box swiper-slide">
+          <div class="project-item">
+            <img src="./websites/darius-portfollio.png" alt="">
+          </div>
+
+        </div>
+        <div class="project-box swiper-slide">
+          <div class="project-item">
+            <img src="./websites/puddle.png" alt="">
+          </div>
+
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="autoplay-progress">
+        <svg viewBox="0 0 48 48">
+          <circle cx="24" cy="24" r="20"></circle>
+        </svg>
+        <span></span>
       </div>
     </div>
   </section>
+  <section class="clients-feedback">
+    <div class="bg-blue"></div>
+    <div class="bg-purple"></div>
+    <div class="clients-title-feedback">
+      <h1>Clients always get <span class="title-span">Exceptional Work </span>from me...</h1>
+    </div>
+    <div class="clients swiper">
+      <div class="clients-wrapper swiper-wrapper">
+
+        <div class="box swiper-slide">
+          <div class="second-box">
+            <div class="clients-image-container">
+              <img src="./img/profile1.jpg" alt="clients image">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore reiciendis, quia saepe ratione quos autem
+              optio ut necessitatibus dolore repellendus.</p>
+          </div>
+          
+        </div>
+        <div class="box swiper-slide">
+          <div class="second-box">
+            <div class="clients-image-container">
+              <img src="./img/profile2.jpg" alt="clients image">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore reiciendis, quia saepe ratione quos autem
+              optio ut necessitatibus dolore repellendus.</p>
+          </div>
+          
+        </div>
+        <div class="box swiper-slide">
+          <div class="second-box">
+            <div class="clients-image-container">
+              <img src="./img/profile3.jpg" alt="clients image">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore reiciendis, quia saepe ratione quos autem
+              optio ut necessitatibus dolore repellendus.</p>
+          </div>
+          
+        </div>
+        <div class="box swiper-slide">
+          <div class="second-box">
+            <div class="clients-image-container">
+              <img src="./img/profile4.jpg" alt="clients image">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore reiciendis, quia saepe ratione quos autem
+              optio ut necessitatibus dolore repellendus.</p>
+          </div>
+          
+        </div>
+        <div class="box swiper-slide">
+          <div class="second-box">
+            <div class="clients-image-container">
+              <img src="./img/profile5.jpg" alt="clients image">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore reiciendis, quia saepe ratione quos autem
+              optio ut necessitatibus dolore repellendus.</p>
+          </div>
+          
+        </div>
+        <div class="box swiper-slide">
+          <div class="second-box">
+            <div class="clients-image-container">
+              <img src="./img/profile6.jpg" alt="clients image">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore reiciendis, quia saepe ratione quos autem
+              optio ut necessitatibus dolore repellendus.</p>
+          </div>
+          
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  <section class="contact-me">
+    <div class="contact-title">
+      <h1>Get in Touch</h1>
+      <h1>Contact me</h1>
+    </div>
+    <form action="#" method="post" class="contact-form">
+      <input type="text" placeholder="Name" name="name" id="name" class="form-control">
+      <input type="email" placeholder="Email" name="email" id="email" class="form-control">
+      <textarea type="text" placeholder="Message" name="message-to-me" id="message-to-me" cols="30" rows="4" class="form-control"></textarea>
+      <button type="submit" class="button">Send</button>
+    </form>
+  </section>
+  <footer class="page-footer">
+    <p>gabrieldarius261@gmail.com</p>
+    <div class="contact-icon-container">
+      <div>
+        <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+      </div>
+      <div>
+        <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+      </div>
+      <div>
+        <i class="fa-brands fa-facebook" style="color: #f7f7f7;"></i>
+      </div>
+      <div>
+        <i class="fa-brands fa-github" style="color: #fafafa;"></i>
+      </div>
+      <div>
+        <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+      </div>
+    </div>
+    <div class="footer-bg">
+      <img src="./img/wave.png" alt="">
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <script type="module" src="./main.js"></script>
 </body>
 

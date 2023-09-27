@@ -55,3 +55,25 @@
      color: var(--yellow);
      margin-top: 5px;
 }
+
+
+/* xs */
+/* @media (min-width: 475px) {} */
+/* sm */
+@media (min-width: 640px) {
+     .data-experience-container{
+          margin-top: 500px;
+     }
+}
+/* md */
+@media (min-width: 768px) {
+     .data-experience-container{
+          margin-top: 0px;
+     }
+}
+/* lg*/
+/* @media (min-width: 1024px) {} */
+/* xl */
+/* @media (min-width: 1280px) {} */
+/* 2xl */
+/* @media (min-width: 1536px) {} */
