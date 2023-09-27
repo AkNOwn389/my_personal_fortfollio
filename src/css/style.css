@@ -1,7 +1,7 @@
-/* @font-face {
-  font-family: 'Gumela', sans-serif;
+@font-face {
+  font-family: 'Gumela';
   src: url('./fonts/Gumela Regular.otf') format('opentype');
-} */
+}
 
 :root {
   --yellow: #F5C32C;
@@ -35,7 +35,7 @@
 }
 
 * {
-  font-family: Gumela;
+  font-family: 'Gumela';
   font-weight: normal;
   font-size: 20px;
 }

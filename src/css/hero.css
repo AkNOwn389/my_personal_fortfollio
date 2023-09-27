@@ -33,7 +33,6 @@
      max-width: 22vh;
      word-spacing: 2px;
      letter-spacing: .5px;
-     font-family: 'General Sans', sans-serif;
 }
 
 .link-container{
@@ -234,10 +233,9 @@ main{
      
      .title-container p{
           font-size: 10px;
-          max-width: 22vh;
+          max-width: 23vh;
           color: var(--dark);
           z-index: 5;
-          font-family: 'General Sans', sans-serif;
      }
 }
 /* sm */
@@ -294,7 +292,6 @@ main{
           max-width: 22vh;
           color: var(--dark);
           z-index: 5;
-          font-family: 'General Sans', sans-serif;
      }
 }
 /* md */
@@ -345,7 +342,6 @@ main{
           max-width: 22vh;
           color: var(--dark);
           z-index: 5;
-          font-family: 'General Sans', sans-serif;
      }
 }
 /* lg*/
@@ -391,7 +387,6 @@ main{
           max-width: 60vh;
           color: var(--dark);
           z-index: 5;
-          font-family: 'General Sans', sans-serif;
      }
 }
 /* xl */

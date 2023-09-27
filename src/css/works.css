@@ -38,10 +38,10 @@
 
 .works-title-container p {
      color: var(--dark);
-     font-family: 'General Sans', sans-serif;
      font-size: 10px;
      max-width: 30vh;
      margin: 0;
+     letter-spacing: .5px;
 }
 
 .works-title-container h1:nth-child(2) {
