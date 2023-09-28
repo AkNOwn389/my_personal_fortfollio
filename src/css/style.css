@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Gumela';
-  src: url('./src/fonts/Gumela Regular.ttf') format('opentype');
+  src: url('./fonts/Gumela Regular.ttf') format('opentype');
 }
 
 :root {
