@@ -45,7 +45,10 @@ body {
   transition: all 0.3s ease-in;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  position: relative;
   overflow-x: hidden;
+  
 }
 
 .button {

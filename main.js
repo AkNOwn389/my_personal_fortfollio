@@ -1,6 +1,6 @@
+import './src/css/modern-normalize.css';
 import './src/css/style.css';
 import './src/css/toggle.css';
-import './src/css/modern-normalize.css';
 import './src/css/header.css';
 import './src/css/hero.css';
 import './src/css/service.css';
