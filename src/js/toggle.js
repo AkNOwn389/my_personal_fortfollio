@@ -11,6 +11,7 @@ export default function toggle() {
                root.style.setProperty('--purple', 'rgb(238 210 255)');
                root.style.setProperty('--blueCard', '#DDF8FE');
                root.style.setProperty('--black', 'white');
+               root.style.setProperty('--yellowToWhite', '#F5C32C')
 
 
                window.localStorage.setItem('isNight', 'false');
@@ -22,6 +23,7 @@ export default function toggle() {
                root.style.setProperty('--purple', 'black');
                root.style.setProperty('--blueCard', 'black');
                root.style.setProperty('--black', '#242D49');
+               root.style.setProperty('--yellowToWhite', 'white')
 
                window.localStorage.setItem('isNight', 'true');
           };

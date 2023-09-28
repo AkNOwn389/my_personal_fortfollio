@@ -12,7 +12,7 @@
     href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700&f[]=general-sans@500,600,400&f[]=satoshi@700&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-  
+
 </head>
 
 <body>
@@ -34,17 +34,26 @@
     </div>
     </div>
     <ul class="navigations">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Service</a></li>
-      <li><a href="#">Experience</a></li>
-      <li><a href="#">Portfollio</a></li>
-      <li><a href="#">Testimonials</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#service">Service</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#portfollio">Portfollio</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
     </ul>
     <button class="button nav-btn">Contact</button>
     <i class="fa-solid fa-bars menu-bars"></i>
   </header>
   <main>
-    <section class="hero-section">
+    <section class="hero-section" id="home">
+      <div class="mobile-navigations">
+        <ul>
+          <a href="#home" class="nav-home">Home</a>
+          <a href="#service" class="nav-service">Service</a>
+          <a href="#experience" class="nav-experience">Experience</a>
+          <a href="#portfollio" class="nav-portfollio">Portfollio</a>
+          <a href="#testimonials" class="nav-testimonials">Testimonials</a>
+        </ul>
+      </div>
       <div class="title-container">
         <h1>Hi! I Am</h1>
         <h1 class="hero-name">Darius Gabriel</h1>
@@ -66,21 +75,16 @@
 
 
     </section>
-    <img src="https://fakeimg.pl/100x100"
-    data-src="/img/Vector1.png" alt="" class="firstImage lazy loading">
-    <img src="https://fakeimg.pl/100x100"
-    data-src="/img/Vector2.png" alt="" class="secondImage lazy loading">
+    <img src="https://fakeimg.pl/100x100" data-src="/img/Vector1.png" alt="" class="firstImage lazy loading">
+    <img src="https://fakeimg.pl/100x100" data-src="/img/Vector2.png" alt="" class="secondImage lazy loading">
     <img src="/img/darius.png" alt="" class="thirdImage">
-    <img src="https://fakeimg.pl/100x100"
-    data-src="/img/glassesimoji.png" alt="" class="fourtImage lazy loading">
+    <img src="https://fakeimg.pl/100x100" data-src="/img/glassesimoji.png" alt="" class="fourtImage lazy loading">
     <div class="best-design-award">
-      <img src="https://fakeimg.pl/100x100"
-      data-src="/img/thumbup.png" alt="" class="lazy loading">
+      <img src="https://fakeimg.pl/100x100" data-src="/img/thumbup.png" alt="" class="lazy loading">
       <h1>Best Design Award</h1>
     </div>
     <div class="web-developer">
-      <img src="https://fakeimg.pl/100x100"
-      data-src="/img/crown.png" alt="" class="lazy loading">
+      <img src="https://fakeimg.pl/100x100" data-src="/img/crown.png" alt="" class="lazy loading">
       <h1>Web Developer</h1>
     </div>
     <div class="bg-blue"></div>
@@ -88,7 +92,7 @@
   </main>
 
 
-  <section class="service-section">
+  <section class="service-section" id="service">
     <div class="service-title-container">
       <h1>My Awesome</h1>
       <h1>service</h1>
@@ -98,35 +102,31 @@
     </div>
 
     <div class="desigh-container">
-      <img src="https://fakeimg.pl/100x100"
-      data-src="/img/heartemoji.png" alt="emoji" class="lazy loading">
+      <img src="https://fakeimg.pl/100x100" data-src="/img/heartemoji.png" alt="emoji" class="lazy loading">
       <h3>Design</h3>
       <p>Figma, Sketch, Photoshop,Adobe Illustrator, Adobe xd</p>
       <button>Learn more</button>
     </div>
     <div class="web-development">
-      <img src="https://fakeimg.pl/100x100"
-      data-src="/img/glassesimoji.png" alt="emoji" class="lazy loading">
+      <img src="https://fakeimg.pl/100x100" data-src="/img/glassesimoji.png" alt="emoji" class="lazy loading">
       <h3>Web developer</h3>
       <p>Django</p>
       <button>Learn more</button>
     </div>
     <div class="developer-container">
-      <img src="https://fakeimg.pl/100x100"
-      data-src="/img/glasses.png" alt="emoji" class="lazy loading">
+      <img src="https://fakeimg.pl/100x100" data-src="/img/glasses.png" alt="emoji" class="lazy loading">
       <h3>Developer</h3>
       <p>Html, Css, JavaScript, React, Nodejs, Express, Java, Kotlin, Python</p>
       <button>Learn more</button>
     </div>
     <div class="ui-ux-container">
-      <img src="https://fakeimg.pl/100x100"
-      data-src="/img/humble.png" alt="emoji" class="lazy loading">
+      <img src="https://fakeimg.pl/100x100" data-src="/img/humble.png" alt="emoji" class="lazy loading">
       <h3>UI/UX</h3>
       <p>Protopie</p>
       <button>Learn more</button>
     </div>
   </section>
-  <section class="data-experience-container">
+  <section class="data-experience-container" id="experience">
     <div class="wrapper">
       <div class="years-container">
         <div class="circle">
@@ -171,24 +171,20 @@
 
         <div class="w-mainCircle">
           <div class="w-secCircle">
-            <img class="lazy loading" src="https://fakeimg.pl/100x100"
-            data-src="./img/Upwork.png" alt="" />
+            <img class="lazy loading" src="https://fakeimg.pl/100x100" data-src="./img/Upwork.png" alt="" />
           </div>
           <div class="w-secCircle">
-            <img class="lazy loading" class="lazy loading" src="https://fakeimg.pl/100x100"
-            data-src="./img/fiverr.png" alt="" />
+            <img class="lazy loading" class="lazy loading" src="https://fakeimg.pl/100x100" data-src="./img/fiverr.png"
+              alt="" />
           </div>
           <div class="w-secCircle">
-            <img class="lazy loading" src="https://fakeimg.pl/100x100"
-            data-src="./img/amazon.png" alt="" />
+            <img class="lazy loading" src="https://fakeimg.pl/100x100" data-src="./img/amazon.png" alt="" />
           </div>
           <div class="w-secCircle">
-            <img class="lazy loading" src="https://fakeimg.pl/100x100"
-            data-src="./img/Shopify.png" alt="" />
+            <img class="lazy loading" src="https://fakeimg.pl/100x100" data-src="./img/Shopify.png" alt="" />
           </div>
           <div class="w-secCircle">
-            <img class="lazy loading" src="https://fakeimg.pl/100x100"
-            data-src="./img/Facebook.png" alt="" />
+            <img class="lazy loading" src="https://fakeimg.pl/100x100" data-src="./img/Facebook.png" alt="" />
           </div>
         </div>
       </div>
@@ -198,7 +194,7 @@
     <div class="bg-blue"></div>
     <div class="bg-purple"></div>
   </section>
-  <section class="recent-project">
+  <section class="recent-project" id="portfollio">
     <div class="bg-blue"></div>
     <div class="bg-purple"></div>
     <div class="recent-project-title">
@@ -212,42 +208,37 @@
         <div class="project-box swiper-slide">
 
           <div class="project-item">
-            <img class="lazy loading" src="https://fakeimg.pl/300x200"
-            data-src="./websites/darius-web.png" alt="">
+            <img class="lazy loading" src="https://fakeimg.pl/300x200" data-src="./websites/darius-web.png" alt="">
           </div>
         </div>
         <div class="project-box swiper-slide">
           <div class="project-item">
-            <img class="lazy loading" src="https://fakeimg.pl/300x200"
-            data-src="./websites/wilson-web.png" alt="">
+            <img class="lazy loading" src="https://fakeimg.pl/300x200" data-src="./websites/wilson-web.png" alt="">
           </div>
 
         </div>
         <div class="project-box swiper-slide">
           <div class="project-item">
-            <img class="lazy loading" src="https://fakeimg.pl/300x200"
-            data-src="./websites/carla-web.png" alt="">
+            <img class="lazy loading" src="https://fakeimg.pl/300x200" data-src="./websites/carla-web.png" alt="">
           </div>
 
         </div>
         <div class="project-box swiper-slide">
           <div class="project-item">
-            <img class="lazy loading" src="https://fakeimg.pl/300x200"
-            data-src="./websites/wilson-cafe.png" alt="">
+            <img class="lazy loading" src="https://fakeimg.pl/300x200" data-src="./websites/wilson-cafe.png" alt="">
           </div>
 
         </div>
         <div class="project-box swiper-slide">
           <div class="project-item">
-            <img class="lazy loading" src="https://fakeimg.pl/300x200"
-            data-src="./websites/darius-portfollio.png" alt="">
+            <img class="lazy loading" src="https://fakeimg.pl/300x200" data-src="./websites/darius-portfollio.png"
+              alt="">
           </div>
 
         </div>
         <div class="project-box swiper-slide">
           <div class="project-item">
-            <img class="lazy loading" src="https://fakeimg.pl/300x200"
-            data-src="./websites/puddle.png" alt="">
+            <img class="lazy loading" src="https://fakeimg.pl/300x200" data-src="./websites/puddle.png" alt="">
           </div>
 
         </div>
@@ -262,7 +253,7 @@
       </div>
     </div>
   </section>
-  <section class="clients-feedback">
+  <section class="clients-feedback" id="testimonials">
     <div class="bg-blue"></div>
     <div class="bg-purple"></div>
     <div class="clients-title-feedback">
@@ -274,68 +265,74 @@
         <div class="box swiper-slide">
           <div class="second-box">
             <div class="clients-image-container">
-              <img class="lazy loading" src="https://fakeimg.pl/100x100"
-              data-src="./img/profile1.jpg" alt="clients image">
+              <img class="lazy loading" src="https://fakeimg.pl/100x100" data-src="./img/profile1.jpg"
+                alt="clients image">
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore reiciendis, quia saepe ratione quos autem
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore reiciendis, quia saepe ratione quos
+              autem
               optio ut necessitatibus dolore repellendus.</p>
           </div>
-          
+
         </div>
         <div class="box swiper-slide">
           <div class="second-box">
             <div class="clients-image-container">
-              <img class="lazy loading" src="https://fakeimg.pl/100x100"
-              data-src="./img/profile2.jpg" alt="clients image">
+              <img class="lazy loading" src="https://fakeimg.pl/100x100" data-src="./img/profile2.jpg"
+                alt="clients image">
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore reiciendis, quia saepe ratione quos autem
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore reiciendis, quia saepe ratione quos
+              autem
               optio ut necessitatibus dolore repellendus.</p>
           </div>
-          
+
         </div>
         <div class="box swiper-slide">
           <div class="second-box">
             <div class="clients-image-container">
-              <img class="lazy loading" src="https://fakeimg.pl/100x100"
-              data-src="./img/profile3.jpg" alt="clients image">
+              <img class="lazy loading" src="https://fakeimg.pl/100x100" data-src="./img/profile3.jpg"
+                alt="clients image">
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore reiciendis, quia saepe ratione quos autem
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore reiciendis, quia saepe ratione quos
+              autem
               optio ut necessitatibus dolore repellendus.</p>
           </div>
-          
+
         </div>
         <div class="box swiper-slide">
           <div class="second-box">
             <div class="clients-image-container">
-              <img class="lazy loading" src="https://fakeimg.pl/100x100"
-              data-src="./img/profile4.jpg" alt="clients image">
+              <img class="lazy loading" src="https://fakeimg.pl/100x100" data-src="./img/profile4.jpg"
+                alt="clients image">
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore reiciendis, quia saepe ratione quos autem
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore reiciendis, quia saepe ratione quos
+              autem
               optio ut necessitatibus dolore repellendus.</p>
           </div>
-          
+
         </div>
         <div class="box swiper-slide">
           <div class="second-box">
             <div class="clients-image-container">
-              <img class="lazy loading" src="https://fakeimg.pl/100x100"
-              data-src="./img/profile5.jpg" alt="clients image">
+              <img class="lazy loading" src="https://fakeimg.pl/100x100" data-src="./img/profile5.jpg"
+                alt="clients image">
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore reiciendis, quia saepe ratione quos autem
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore reiciendis, quia saepe ratione quos
+              autem
               optio ut necessitatibus dolore repellendus.</p>
           </div>
-          
+
         </div>
         <div class="box swiper-slide">
           <div class="second-box">
             <div class="clients-image-container">
-              <img class="lazy loading" src="https://fakeimg.pl/100x100"
-              data-src="./img/profile6.jpg" alt="clients image">
+              <img class="lazy loading" src="https://fakeimg.pl/100x100" data-src="./img/profile6.jpg"
+                alt="clients image">
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore reiciendis, quia saepe ratione quos autem
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore reiciendis, quia saepe ratione quos
+              autem
               optio ut necessitatibus dolore repellendus.</p>
           </div>
-          
+
         </div>
 
       </div>
@@ -350,7 +347,8 @@
     <form action="#" method="post" class="contact-form">
       <input type="text" placeholder="Name" name="name" id="name" class="form-control">
       <input type="email" placeholder="Email" name="email" id="email" class="form-control">
-      <textarea type="text" placeholder="Message" name="message-to-me" id="message-to-me" cols="30" rows="4" class="form-control"></textarea>
+      <textarea type="text" placeholder="Message" name="message-to-me" id="message-to-me" cols="30" rows="4"
+        class="form-control"></textarea>
       <button type="submit" class="button">Send</button>
     </form>
   </section>

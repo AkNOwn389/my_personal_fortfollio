@@ -47,6 +47,11 @@
      color: var(--blackToYellow);
      font-size: var(--size-3xl);
      margin-right: 10px;
+     transition: all 0.3s;
+}
+
+.menu-bars:hover{
+     color: var(--orangeCard);
 }
 
 .navigations li:hover{
