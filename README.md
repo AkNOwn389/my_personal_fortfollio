@@ -16,7 +16,7 @@ git clone https://github.com/AkNOwn389/my_personal_fortfollio
 cd my_personal_fortfollio
 ```
 
-# Create vite dependencies
+# Install vite dependencies
 
 first we need install node.js in your machine
 and then run it on your comman promt
