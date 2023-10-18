@@ -3,4 +3,8 @@ my personal and responsive fortfollio i copy it in react open source project and
 
 # ScreenShot
 
-![Screenshot](https://github.com/AkNOwn389/my_personal_fortfollio/blob/main/ss.png)
+
+
+<div style="border-radius": 20px>
+     ![Screenshot](https://github.com/AkNOwn389/my_personal_fortfollio/blob/main/ss.png)
+</div>
