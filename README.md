@@ -33,3 +33,25 @@ and run it to run project in your developement server.
 ```
 npm run dev
 ```
+
+# Service section
+
+![Screenshot](https://github.com/AkNOwn389/my_personal_fortfollio/blob/main/ss2.png)
+
+# Work section
+
+![Screenshot](https://github.com/AkNOwn389/my_personal_fortfollio/blob/main/ss3.png)
+
+# Projects section
+
+![Screenshot](https://github.com/AkNOwn389/my_personal_fortfollio/blob/main/ss4.png)
+
+# Clients feedback's section
+
+![Screenshot](https://github.com/AkNOwn389/my_personal_fortfollio/blob/main/ss5.png)
+
+# Contact section
+
+![Screenshot](https://github.com/AkNOwn389/my_personal_fortfollio/blob/main/ss6.png)
+
+if you feel this is helpful to you just say thankyou.
