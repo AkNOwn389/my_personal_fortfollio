@@ -3,7 +3,7 @@ my personal and responsive fortfollio i copy it in react open source project and
 
 # ScreenShot
 
-![Screenshot](https://github.com/AkNOwn389/my_personal_fortfollio/blob/main/ss.png)
+![Screenshot](https://github.com/AkNOwn389/my_personal_fortfollio/blob/main/screenshot/ss.png)
 
 
 you can fork my project to create your own or modify it,
@@ -36,22 +36,22 @@ npm run dev
 
 # Service section
 
-![Screenshot](https://github.com/AkNOwn389/my_personal_fortfollio/blob/main/ss2.png)
+![Screenshot](https://github.com/AkNOwn389/my_personal_fortfollio/blob/main/screenshot/ss2.png)
 
 # Work section
 
-![Screenshot](https://github.com/AkNOwn389/my_personal_fortfollio/blob/main/ss3.png)
+![Screenshot](https://github.com/AkNOwn389/my_personal_fortfollio/blob/main/screenshot/ss3.png)
 
 # Projects section
 
-![Screenshot](https://github.com/AkNOwn389/my_personal_fortfollio/blob/main/ss4.png)
+![Screenshot](https://github.com/AkNOwn389/my_personal_fortfollio/blob/main/screenshot/ss4.png)
 
 # Clients feedback's section
 
-![Screenshot](https://github.com/AkNOwn389/my_personal_fortfollio/blob/main/ss5.png)
+![Screenshot](https://github.com/AkNOwn389/my_personal_fortfollio/blob/main/screenshot/ss5.png)
 
 # Contact section
 
-![Screenshot](https://github.com/AkNOwn389/my_personal_fortfollio/blob/main/ss6.png)
+![Screenshot](https://github.com/AkNOwn389/my_personal_fortfollio/blob/main/screenshot/ss6.png)
 
 if you feel this is helpful to you just say thankyou.
